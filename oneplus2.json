@@ -1,0 +1,72 @@
+{
+  "name": "<font color="#3949AB">BlueBerry Kernel</font>",
+  "short_description": "Tweakable Kernel for OnePlus 2",
+  "long_description": "Tweakable Kernel for OnePlus 2, based on benschhold's Kernel",
+  "logo": "https://raw.githubusercontent.com/xdevs23/BlueBerry-update/master/oneplus2-logo.png",
+  "xda": "http://forum.xda-developers.com/oneplus-2/development/kernel-blueberry-kernel-t3426512",
+  "github": "https://github.com/xdevs23/android_kernel_oneplus_msm8994",
+  "features": [
+    "Based on benschhold's Kernel",
+    {
+      "name": "CPU Governors",
+      "items": [
+        "interactive (default)",
+        "conservative",
+	      "ondemand",
+        "powersave",
+        "performance",
+        "zzmoove"
+      	"elementalx",
+      	"impulse"
+      ]
+    },
+    {
+      "name": "GPU Governors",
+      "items": [
+        "spdm_bw_hyp",
+        "bw_hwmon",
+        "bw_vbif",
+        "gpubw_mon",
+        "msm-adreno-tz (default)",
+        "cpufreq",
+        "userspace",
+        "powersave",
+        "performance",
+        "simple_ondemand"
+      ]
+    },
+    {
+      "name": "I/O Schedulers",
+      "items": [
+        "noop",
+        "deadline",
+        "row",
+        "cfq",
+        "bfq",
+        "fiops"
+      ]
+    },
+    {
+      "name": "Hotplugs",
+      "items": [
+        "Thunderplug",
+        "H-Cube (ROM-dependent)"
+      ]
+    },
+    "f2fs",
+    "Vibration Control",
+    "Color Intensity Control(Kcal)",
+    "CPU Overclock up to 2045 MHz (2.0 GHz)",
+    "CPU Underclock down to 302 MHz",
+    "Offline Gesture Support",
+    "FSync",
+    "Super performance & battery"
+  ],
+  "downloads": [
+    {
+      "name": "BlueBerry Kernel 1.3 (bh3.6)",
+      "description": "",
+      "url": "https://www.androidfilehost.com/?fid=24591000424954998"
+    }
+   ]
+}
